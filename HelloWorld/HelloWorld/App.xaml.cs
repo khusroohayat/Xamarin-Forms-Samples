@@ -11,7 +11,7 @@ namespace HelloWorld
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new WelcomePage()) { 
+            MainPage = new NavigationPage(new ContactsPage()) { 
                 BackgroundColor = Color.Gray,
                 BarTextColor = Color.White
             };
