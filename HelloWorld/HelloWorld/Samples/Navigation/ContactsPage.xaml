@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="HelloWorld.Samples.Navigation.ContactsPage">
+             x:Class="HelloWorld.Samples.Navigation.ContactsPage"
+             Padding="0, 20, 0, 0" Title="Contacts">
     <ContentPage.Content>
         <ListView ItemSelected="ListView_ItemSelected" x:Name="listView">
             <ListView.ItemTemplate>
